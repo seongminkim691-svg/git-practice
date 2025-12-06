@@ -1,10 +1,8 @@
 # 수학 계산을 위한 코드를 제공하는 프로젝트
 ### 개발자 : Kim SeongMin
 - **GitHub**
-<br/>
 <!--python-->
 <img height="32" width="32" src="https://cdn.simpleicons.org/github/181717" />
-<br/>
 
 ## 1. calculator.py : '계산기'에 있는 4칙연산 기능들을 제공하는 모듈
 - **소스코드**
@@ -22,7 +20,6 @@ def clear():
 def calculate():
     expression = entry_var.get()
 
-    # 보안: 허용된 문자만 사용되었는지 확인
     allowed_chars = "0123456789+-*/(). "
     for ch in expression:
         if ch not in allowed_chars:
