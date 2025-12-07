@@ -5,4 +5,4 @@
 <img height="32" width="32" src="https://cdn.simpleicons.org/github/181717" />
 </a>
 
-**Summary** : 'OSS' 교과목 요약정리 내용
+- **Summary** : 'OSS' 교과목 요약정리 내용
